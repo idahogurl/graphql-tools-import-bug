@@ -1,0 +1,6 @@
+# import * from './pilatesInstructor.schema.graphql'
+
+interface GraphQLError {
+  message: String!
+  statusCode: String
+}

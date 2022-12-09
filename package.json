@@ -1,0 +1,25 @@
+{
+  "name": "graphql-tools-import-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "output": "node index.js > schema.graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idahogurl/graphql-tools-import-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idahogurl/graphql-tools-import-bug/issues"
+  },
+  "homepage": "https://github.com/idahogurl/graphql-tools-import-bug#readme",
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.5.13",
+    "@graphql-tools/load": "^7.8.8",
+    "graphql": "^15.8.0"
+  }
+}

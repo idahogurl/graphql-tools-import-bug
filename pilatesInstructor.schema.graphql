@@ -1,0 +1,9 @@
+type PilatesInstructor @key(fields: "appointmentInstanceId") {
+  appointmentInstanceId: String!
+  pilatesInstructorId: String
+  firstName: String
+  lastName: String
+  name: String
+  emailAddress: String
+  tierName: String
+}
